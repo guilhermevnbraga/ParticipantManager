@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# Participant Manager
+<div>
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/guilhermevnbraga/ParticipantManager">
+    <img alt="Último commit" src="https://img.shields.io/github/last-commit/guilhermevnbraga/ParticipantManager">
+    <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/guilhermevnbraga/ParticipantManager">
+    <img alt="Github contributors" src="https://img.shields.io/github/contributors/guilhermevnbraga/ParticipantManager">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/guilhermevnbraga/ParticipantManager">
+    <img alt="License" src="https://img.shields.io/github/license/guilhermevnbraga/ParticipantManager">
+</div>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Sobre
+O **Participant Manager** é uma aplicação desenvolvida em React Native para gerenciamento de participantes de eventos. A aplicação permite adicionar e remover participantes e possui interface moderna.
 
-## Get started
+## Requisitos e Como Rodar a Aplicação Localmente
 
-1. Install dependencies
+### Pré-requisitos
+- **Node.js** versão 16 ou superior
+- **Expo CLI** instalado globalmente
+- Um dispositivo físico ou emulador configurado
 
-   ```bash
-   npm install
-   ```
+### Passos para Configuração
 
-2. Start the app
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/guilhermevnbraga/ParticipantManager.git
+    ```
 
-   ```bash
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd ParticipantManager
+    ```
+
+3. Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+
+4. Inicie o servidor Expo:
+    ```bash
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+5. Escaneie o QR Code no terminal com o aplicativo **Expo Go** no seu dispositivo físico, ou execute o projeto em um emulador configurado.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Estrutura do Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+A estrutura do projeto é organizada da seguinte forma:
 
-## Get a fresh project
+- **app/**: Contém o código principal da aplicação.
+  - `index.tsx`: Componente principal que renderiza a aplicação.
+  - `styles.ts`: Estilos globais usados no componente principal.
+- **components/Participant/**: Contém o componente que gerencia os participantes.
+  - `index.tsx`: Lógica e renderização do componente de participante.
+  - `styles.ts`: Estilos específicos para o componente de participante.
 
-When you're ready, run:
+## Preview do app
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div align="center">
+    <img src="./assets/images/image.png" alt="Demo do aplicativo" width="250">
+</div>
